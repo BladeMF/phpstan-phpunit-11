@@ -1,0 +1,25 @@
+{
+    "$schema": "/root/.vscode-server/data/User/globalStorage/dantleech.vscode-phpactor/phpactor/phpactor.schema.json",
+
+    "language_server_completion.trim_leading_dollar": true,
+
+    "language_server_phpstan.enabled": true,
+    "language_server_phpstan.bin": "vendor/bin/phpstan",
+    "language_server_php_cs_fixer.enabled": false,
+    "language_server_psalm.enabled": false,
+
+    "language_server_worse_reflection.inlay_hints.enable": true,
+    "language_server_worse_reflection.inlay_hints.types": true,
+    "language_server_worse_reflection.inlay_hints.params": true,
+    "language_server_worse_reflection.diagnostics.enable": true,
+
+    "language_server.diagnostic_sleep_time": 2000,
+    "language_server.diagnostic_outsource": true,
+    "language_server.diagnostic_outsource_timeout": 5,
+    "language_server.diagnostics_on_update": false,
+
+    "language_server.trace": false,
+    "prophecy.enabled": true,
+
+    "code_transform.indentation": "\t"
+}

@@ -1,0 +1,21 @@
+{
+    "name": "blademf/phpstan-phpunit-11",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^11.0",
+        "phpstan/phpstan": "^1.10",
+        "phpspec/prophecy-phpunit": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blademf\\PhpstanPhpunit11\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vladislav Kosev",
+            "email": "vladislav.kosev@clevertogether.com"
+        }
+    ]
+}
